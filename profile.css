@@ -1,0 +1,35 @@
+.slackProfilePicture{
+    max-width: 100%;
+    height: auto;
+}
+.current-TimeUTC {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+};
+@media (max-width: 480px) {
+    .slackProfilePicture{
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media (max-min-width:768px) {
+    .slackProfilePicture{
+        max-width: 100%;
+        height: auto;
+}
+}
+
+.content {
+    width: fit-content;
+}
+@media (max-width: 480px) {
+    .content {
+        max-width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .content {
+        max-width: 100%;
+    }
+}
